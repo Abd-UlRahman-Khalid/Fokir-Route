@@ -1,0 +1,229 @@
+/* Media Quiry */
+
+/* max-xxl */
+
+@media (max-width: 1536px) {
+}
+/* max-xl */
+@media (max-width: 1280px) {
+  /* ======About Section======== */
+  .cell .about-box {
+    float: left;
+    width: 49%;
+  }
+}
+
+/* max-lg */
+@media (max-width: 1170px) {
+  /*===============Hero-Nav-Bar ================*/
+  .nav-bar i {
+    display: block;
+  }
+  nav {
+    display: none;
+    width: 48%;
+    margin-top: 20px;
+  }
+  .nav-bar i:hover + nav {
+    display: block;
+  }
+  nav li {
+    display: block;
+    width: 100%;
+  }
+  /* =============About=================== */
+  .about-container {
+    width: 75%;
+  }
+  .about .cell .pic {
+    margin-bottom: 20px;
+  }
+  .about .cell .pic img {
+    width: 380px;
+  }
+  .about-container .pic::after {
+    display: none;
+  }
+
+  .cell .about-box {
+    width: 45%;
+  }
+  .cell .about-content {
+    padding: 0 0 0 10px;
+    width: 380px;
+  }
+  .about-content h2 {
+    font-size: 30px;
+  }
+  .about-container p {
+    font-size: 18px;
+  }
+  .info .work .mail {
+    font-size: 14px;
+  }
+  .info li {
+    font-size: 14px;
+  }
+  .info li h3 {
+    font-size: 15px;
+  }
+  .info .personal {
+    padding-right: 0;
+  }
+  .info .work {
+    padding-left: 0;
+  }
+  button {
+    font-size: 15px;
+  }
+  /*=========Testimony============= */
+  .rec-card {
+    width: 80%;
+  }
+}
+@media (max-width: 999px) {
+  /* ==========About================ */
+  .cell .about-box {
+    float: left;
+    width: 49%;
+  }
+  .about-container {
+    width: 53%;
+  }
+  /* Blog */
+  .blog .card {
+    width: 65%;
+    margin-bottom: 20px;
+  }
+  /* ==============Our Services===============  */
+  .our-services .card {
+    margin: 0 auto;
+    width: 50%;
+  }
+  /* ==============Products Section============ */
+  .our-portfolio .cell .item {
+    width: 50%;
+  }
+  /* Feedback */
+  .rec-card {
+    width: 100%;
+  }
+
+  /* Contact Us */
+  .contact-us form {
+    width: 90%;
+  }
+}
+
+/* max-md */
+
+@media (max-width: 768px) {
+  /* About */
+  .about-container .pic::after {
+    display: none;
+  }
+
+  .about .about-box {
+    width: 100%;
+  }
+  .about .cell .pic-box {
+    width: 100%;
+  }
+  .about .cell .pic {
+    margin-left: 9%;
+    margin-bottom: 20px;
+  }
+  .cell .about-content {
+    width: 100%;
+  }
+  .info .work {
+    float: left;
+  }
+  .about-container p {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .about-container h3 {
+    font-weight: 500;
+  }
+
+  button {
+    padding: 8px 15px;
+  }
+}
+
+/* max-sm */
+@media (max-width: 659px) {
+  /* ==============About Scetion============ */
+  .about-container {
+    width: 90%;
+  }
+  .about .cell .pic img {
+    width: 100%;
+  }
+  .about-container .pic::after {
+    display: none;
+  }
+
+  .cell .about-box {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .cell .about-content {
+    padding: 0 0 0 10px;
+    width: 100%;
+  }
+  /* ==============Our Services===============  */
+  .our-services .card {
+    float: none;
+    margin: 0 auto;
+    width: 65%;
+  }
+  /* ==============Products Section============ */
+  .our-portfolio .cell .item {
+    width: 100%;
+  }
+  /* ==============Statistics scetion============= */
+  .statistics .card {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .statistics .card i {
+    margin-bottom: 5px;
+  }
+  /*============== Feedback Section ============*/
+  .rec-card {
+    width: 70%;
+    padding: 20px;
+  }
+  .rec-card .pic-item {
+    width: 100%;
+  }
+  .rec-card img {
+    float: none;
+    margin: 0 auto;
+  }
+  .rec-card .rec-content {
+    width: 100%;
+    padding: 0;
+  }
+
+  /*============ Contact Us Section================== */
+  .name,
+  .mail {
+    width: 100%;
+  }
+  .name {
+    margin-bottom: 20px;
+  }
+
+  .contact-us form {
+    width: 65%;
+    margin: 0 auto;
+  }
+  form .btn {
+    font-size: 15px;
+    font-weight: normal;
+  }
+}
